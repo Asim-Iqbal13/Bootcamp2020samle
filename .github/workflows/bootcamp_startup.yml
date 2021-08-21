@@ -32,6 +32,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: installing surge
     
-    run: npm install --global surge
+    run: npm install --global surgets.First_Token }}
     - name: deploying using surge
     run: surge ./ crabby-tramp.surge.sh --token ${{ secrets.First_Token }}
